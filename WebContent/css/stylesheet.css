@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+header{
+	background-color: black;
+}
+
+.container-fluid{
+	padding-right: 30px;
+    padding-left: 30px;
+}
+
+.btn{
+	    margin: 2%;
+}
+
+#title a{
+	color: white;
+	font-size: 54px;
+}
+
+div#menu{
+	text-align: right;
+}
+
+@keyframes fadein{
+	from {opacity: 0; top: 50px;}
+	to {opacity: 1; top: 0px;}
+}
+
+h2{
+	position: relative;
+	color: lightgray;
+	font-size: 80px;
+	animation-name: fadein;
+	animation-duration:2s;
+}
+
+form{
+	position: relative;
+	padding-right: 10px;
+	padding-left: 10px;
+	min-height: 300px;
+	animation-name: fadein;
+	animation-duration:2s;
+	border: 2px solid lightgray;
+	border-radius: 5px;
+}
+
+div#form{
+	display: inline-block;
+	align-self: center;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	display: inline-block;
+	width:33%;
+}
+
+div.adminlabel{
+	border-bottom: 1px dashed lightgray;
+	margin: 0;
+}
+
+
+
+

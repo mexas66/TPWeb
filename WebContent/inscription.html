@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Connexion</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    </head>
+    
+    <body>
+    
+    	<header>
+    		<div class="container-fluid">
+    			<h1 id="title"><a href="accueil.jsp">TPWeb</a></h1>
+    		</div>
+    	</header>
+    	
+    	<div id="form">
+	        <form action="register" method="POST">
+	            <label>Login</label>
+	            <input type="text" class="form-control" name="login" required/>
+	            <label>Mot de Passe</label>
+	            <input type="password" class="form-control" name="password" required>
+	            <label>E-Mail</label>
+	            <input type="email" class="form-control" name="email" required>
+	            <button type="submit" name="submit" class="btn btn-primary">Connexion</button>
+	        </form>
+        </div>
+    </body>
+</html>
